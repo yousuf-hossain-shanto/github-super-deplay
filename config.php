@@ -13,7 +13,7 @@ $repositories = [
             'password' => '',
             'password_encription' => 'base64'
         ],
-        'post_command' => '',
+        'post_command' => "cd local_dir",
         'api_format' => 'https://github.com/{username}/{repository}/archive/{branch}.zip'
     ]
 ];
